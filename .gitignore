@@ -22,4 +22,5 @@ lerna-debug.log
 .cache
 *.DS_Store
 storybook-static
+.yarn
 
