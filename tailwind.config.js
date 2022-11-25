@@ -2,19 +2,21 @@
 module.exports = {
   content: ["./app/**/*.{ts,tsx,jsx,js}"],
   theme: {
-    fontSize: {
-      xs: 14,
-      sm: 16,
-      md: 18,
-      lg: 20,
-      xl: 24,
-      '2xl': 32,
-    },
     colors: {
       transparent: 'transparent',
 
       black: '#242323',
       white: '#FFF',
+
+      background: '#18181B',
+      bluesky: '#53D8FB',
+      blueocean: '#66C3FF',
+      whitecoffe: '#DCE1E9',
+      pastelpink: '#D4AFB9',
+
+      rose: '#F43F5E',
+      rosee: '#FF7291',
+
 
       default: {
         DEFAULT: '#596172',
