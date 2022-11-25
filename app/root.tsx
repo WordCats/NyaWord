@@ -10,9 +10,11 @@ import {
 
 import styles from "./styles/app.css"
 
+
+
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App", 
+  title: "Nya Word", 
   viewport: "width=device-width,initial-scale=1",
 });
 
@@ -27,16 +29,17 @@ export function links() {
 
 export default function App() {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <head>
         <Meta />
         <Links />
       </head>
-      <body className="min-h-screen w-full overflow-x-hidden flex flex-col min-h-screen">
+      <body className="min-h-screen w-full overflow-x-hidden flex flex-col min-h-screen bg-background">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+
       </body>
     </html>
   );
