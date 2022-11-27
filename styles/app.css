@@ -9,12 +9,7 @@ body{
 
 
 @layer components {
-    .title {
-      @apply font-title text-black tracking-normal font-semibold;
-    }
-    .text{
-        @apply font-text text-default tracking-wider font-normal;
-    }
+    
 }
 
 p,h1,h2,h3,h4,h5,button,span{
