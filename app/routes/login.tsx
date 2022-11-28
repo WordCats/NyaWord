@@ -1,5 +1,5 @@
 import {useState} from "react";
-import Login from "~/components/login";
+import Login from "~/components/Login/login";
 
 export default function LoginPage() {
     let [isOpen, setIsOpen] = useState(false);

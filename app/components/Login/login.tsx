@@ -4,7 +4,12 @@ export default function Login() {
       <div className="bg-sky h-screen flex justify-center items-center w-screen">
         <div className="pl-3">
           <h1 className="text-6xl text-gray-100 font-semibold ">Nya Word! 🐱‍🚀</h1><br></br>
-          <h2 className="text-4xl text-gray-300">O Lugar onde você compartilha seu <a className="text-5xl underline decoration-pink-500 cursor-pointer">mundo de historia!</a><br />Leia as incriveis historias que todos tem a contar.</h2>
+          <h2 className="text-4xl text-gray-300">
+            O Lugar onde você compartilha seu
+            <a className="text-5xl underline decoration-pink-500 cursor-pointer">
+              mundo de historia!
+            </a><br />
+            Leia as incriveis historias que todos tem a contar.</h2>
         </div>
       </div>
       <div className="h-screen flex justify-center items-center pl-56 pr-56">
