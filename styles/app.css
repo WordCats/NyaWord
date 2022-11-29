@@ -13,7 +13,7 @@ body{
         @apply
             container 
             bg-white text-gray-700
-            w-2/3 h-64 shadow-md rounded-md overflow-hidden
+            w-2/4 h-56 shadow-md rounded-md overflow-hidden
             flex  
 
     }
