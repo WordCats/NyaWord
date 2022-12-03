@@ -9,36 +9,8 @@ body{
 
 
 @layer components {
-    .card {
-        @apply
-            container 
-            bg-white text-gray-700
-            w-2/4 h-56 shadow-md rounded-md overflow-hidden
-            flex  
-
-    }
-    .cover {
-        @apply 
-            h-full w-3/12 object-cover
-    }
-    .cover-title {
-        @apply 
-            font-semibold text-2xl
-    }
-    .cover-sinnops {
-        @apply 
-            pr-4
-    }
-    .btn-card {
-        @apply
-            m-2 mt-4
-            pr-2
-            w-auto h-auto text-white
-    }
-    .icon {
-        @apply 
-            w-8 h-8 object-cover grayscale
-    }
+    
+    
 }
 
 p,h1,h2,h3,h4,h5,button,span{
