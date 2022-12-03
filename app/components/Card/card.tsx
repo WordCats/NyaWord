@@ -1,7 +1,7 @@
 export default function Card() {
     return (
         <div>
-            <div className=" w-full lg:max-w-full lg:flex">
+            <div className=" w-full lg:max-w-full lg:flex shadow-md">
                 <a className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" href="#">
                     <img src="https://via.placeholder.com/200x300" />
                 </a>

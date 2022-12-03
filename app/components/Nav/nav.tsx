@@ -1,6 +1,6 @@
 export default function Nav() {
     return (
-        <div className="bg-white px-2 sm:px-4 py-1 dark:bg-gray-800 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+        <div className="bg-white px-2 sm:px-4 py-1 dark:bg-gray-800 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 shadow-lg">
             <div className=" ">
                 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
                 <header className="container flex flex-wrap items-center justify-between mx-auto">
