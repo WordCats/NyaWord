@@ -1,19 +1,21 @@
 export default function Cover() {
     return (
-        <div className="h-72 w-52">
-            <div className="bg-white rounded-2xl shadow-2xl w-52 overflow-hidden relative">
-                <a href="#">
-                    <div className="">
-                        <img 
-                        src="https://m.media-amazon.com/images/I/81pk4GIbLUL.jpg" 
-                        alt="" 
-                        className="transition duration-700 hover:scale-125 hover:blur-sm" />
-                        <div className="transition duration-400 translate-y-6 hover:translate-y-0 absolute top-3/4 w-full h-full bg-neutral-900/90 ">
-                            <h1 className="absolute mx-2 mb-2 top-1 text-lg text-white font-semibold">Rencarnei como uma galinha overpower...</h1>
-                        </div>
+        <div>
+            <a href="/">
+                <div className="relative w-52 h-80 overflow-hidden rounded-md translate-y-0 duration-300 hover:-translate-y-6">
+                    <div className="absolute delay-100 top-3/4 hover:top-0 hover:backdrop-blur-sm  left-0 w-full h-full bg-gradient-to-b from-zinc-900/70 to-zinc-700">
+                        <h1 className="m-2 text-xl break-words text-white w-full h-full" >
+                            A lenda do heroi...
+                            <p className="mt-2 text-base text-white/75 w-full h-full" >
+                                é um conto de uma grando heroi que ficou conhecido como o salvador do mundo...
+                            </p>
+                        </h1>
                     </div>
-                </a>
-            </div>
+                    <img
+                        className="w-full h-full"
+                        src="https://pbs.twimg.com/media/Etv-CItXIAQP6AC.jpg" />
+                </div>
+            </a>
         </div>
     )
 }
