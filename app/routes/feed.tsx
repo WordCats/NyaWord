@@ -18,7 +18,7 @@ export default function feed() {
                         </h1>
                     </div>
                     <div className="mt-8 mx-6 w-full h-auto md:h-screen">
-                        <div className="grid gap-y-5  grind-cols-1 md:grid-cols-5">
+                        <div className=" items-center justify-items-center md:grid md:gap-y-5 md:grid-cols-5">
                             <Cover /> <Cover /> <Cover /> <Cover />
                             <Cover />
                             
