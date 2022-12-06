@@ -9,6 +9,14 @@ body{
 
 
 @layer components {
+    .card {
+       @apply 
+       overflow-hidden w-44 h-64
+       hover:scale-110
+       border-2
+       shadow-lg
+
+    }
     
     
 }

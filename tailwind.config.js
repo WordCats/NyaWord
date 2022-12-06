@@ -3,7 +3,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'sky': "url('app/styles/loginBackground.jpg')",
+        'sky': "url('public/backgrounds/loginBackground.jpg')",
+        'base': "url('public/backgrounds/base.png')",
+
       }
     }
   },
