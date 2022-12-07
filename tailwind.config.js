@@ -6,6 +6,7 @@ module.exports = {
         'sky': "url('public/backgrounds/loginBackground.jpg')",
         'base': "url('public/backgrounds/base.png')",
         'bluesky': "url('public/backgrounds/greensky.jpg')",
+        'register': "url('public/backgrounds/register.jpg')",
 
       }
     }
