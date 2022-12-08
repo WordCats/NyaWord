@@ -5,7 +5,8 @@ module.exports = {
       backgroundImage: {
         'sky': "url('public/backgrounds/loginBackground.jpg')",
         'base': "url('public/backgrounds/base.png')",
-        'bluesky': "url('public/backgrounds/greensky.jpg')",
+        'greensky': "url('public/backgrounds/greensky.jpg')",
+        'bluesky': "url('public/backgrounds/bluesky.jpg')",
         'register': "url('public/backgrounds/register.jpg')",
 
       }

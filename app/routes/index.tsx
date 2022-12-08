@@ -3,6 +3,7 @@ import { useLoaderData } from "@remix-run/react";
 
 import Card from "~/components/Card/card";
 import Nav from "~/components/Nav/nav";
+import Footer from "~/components/Footer/footer";
 
 
 
@@ -22,7 +23,7 @@ export default function Index() {
         <Nav />
       </div>
 
-      <div className="bg-bluesky bg-center py-12">
+      <div className="bg-greensky bg-center py-12">
         <div className="mx-4 sm:mx-12">
           <div>
             <h1 className="text-center text-4xl">Seja bem vindo ao Nya Word!</h1>
@@ -53,8 +54,13 @@ export default function Index() {
       <div className="bg-base bg-repeat">
         <div className="mx-4 sm:mx-12">
           <div>
-            <h1 className="text-xl my-4 bg-zinc-900 text-white pl-2" >Novidades</h1>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-4">
+            <div className="flex my-4 border-b-2 border-zinc-900">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0M3.124 7.5A8.969 8.969 0 015.292 3m13.416 0a8.969 8.969 0 012.168 4.5" />
+              </svg>
+              <h1 className="text-2xl text-black pl-2 " >Novidades</h1>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-4 select-none">
               <Card />
               <Card />
               <Card />
@@ -66,7 +72,12 @@ export default function Index() {
           </div>
           <div>
             <div>
-              <h1 className="text-xl my-4 bg-zinc-900 text-white pl-2" >Capítulos lançados recentemente</h1>
+              <div className="flex my-4 border-b-2 border-zinc-900">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                </svg>
+                <h1 className="text-2xl text-black pl-2 " >Capítulos lançados recentemente</h1>
+              </div>
             </div>
 
             <div className="overflow-x-auto relative shadow-xl">
@@ -124,8 +135,15 @@ export default function Index() {
 
           </div>
           <div>
-            <h1 className="text-xl my-4 bg-zinc-900 text-white pl-2" >As melhores histórias para você!</h1>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-4">
+            <div>
+              <div className="flex my-4 border-b-2 border-zinc-900">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
+                </svg>
+                <h1 className="text-2xl text-black pl-2 " >As melhores histórias para você!</h1>
+              </div>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-4 select-none">
               <Card />
               <Card />
               <Card />
@@ -139,6 +157,9 @@ export default function Index() {
           </div>
         </div>
       </div>
+    <div className="mt-8">
+      <Footer />
+    </div>
     </div>
   );
 }
