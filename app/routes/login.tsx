@@ -5,6 +5,9 @@ export default function LoginPage() {
 
   return (
     <div className="w-screen h-screen bg-bluesky bg-cover bg-center">
+      <div className="flex justify-center items-center text-white text-4xl mt-8 font-semibold">
+          <h1>Nya Word</h1>
+        </div>
       <div className="flex items-center justify-center mt-24">
         <div className="w-5/6 h-5/6 md:w-2/6 md:h-80 shadow-2xl bg-white rounded-lg">
           <div className="m-4">
